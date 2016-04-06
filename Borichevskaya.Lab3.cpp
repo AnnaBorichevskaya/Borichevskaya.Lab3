@@ -107,9 +107,9 @@ int EnterDemention(int n)
 	{
 		cout << "Please, enter size of matrix: ";
 		cin >> n;
-		system("cls");
+		/*system("cls");*/
 		if ((n > 1) && (n < N)) break;
-		cout << "Error! Please, enter other size or value " << endl;
+		cout << "Error! Please, enter other size! " << endl;
 	}
 	return n;
 }
